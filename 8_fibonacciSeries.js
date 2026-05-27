@@ -1,14 +1,13 @@
-function fibonacciSeries(n){
-    let num1=0;
-    let num2=1;
-    let sum= num1+num2;
-    console.log(num1);
-    console.log(num2);
-    for(let i=1;i<n-1;i++){
-        console.log(sum);
-        sum= sum+i-(sum-(2*i));
+function fibonacci(n) {
+    let num1 = 0, num2 = 1, nextNum;
+    console.log("Fibonacci Sequence:");
+    for (let i = 1; i <= n; i++) {
+        console.log(num1);
+        nextNum = num1 + num2;
+        num1 = num2;
+        num2 = nextNum;
     }
-    return sum;
 }
-fibonacciSeries(10);
+
+fibonacci(10);
 
