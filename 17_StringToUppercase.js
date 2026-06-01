@@ -8,4 +8,4 @@ function toUpperCaseArray(arr)
   return upperCaseArray;
 }
 
-console.log(toUpperCaseArray(['g', 'f', 'g']));
+console.log(toUpperCaseArray(['go', 'f0r', 'girl']));
