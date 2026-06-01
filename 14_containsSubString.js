@@ -1,6 +1,5 @@
 function containsSubstring(str, substring) {
-//searches for the substring within str
-return str.indexOf(substring) > 0;
+return str.indexOf(substring) > -1;
 }
 
-console.log(containsSubstring('GeeksForGeeks', 'to'));
+console.log(containsSubstring('GeeksForGeeks', 'G'));
